@@ -12,7 +12,6 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  var1 = array.pop
-  var2 = array.pop
-  return var1 && var2
+  var1 = array.pop(2)
+  return var1 
 end
