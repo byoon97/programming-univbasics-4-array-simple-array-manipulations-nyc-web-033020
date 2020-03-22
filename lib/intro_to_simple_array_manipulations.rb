@@ -10,3 +10,9 @@ def using_pop(array)
   newVar = array.pop
   return newVar
 end
+
+def pop_with_args(array)
+  var1 = array.pop
+  var2 = array.pop
+  return var1 && var2
+end
